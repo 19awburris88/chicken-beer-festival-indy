@@ -59,7 +59,7 @@ a {
 }
 
 .footer-logo-img {
-  height: 9L2px;
+  height: 90px;
 }
 
 .nav-links {
@@ -227,6 +227,7 @@ h2 {
 
 .hero-chips {
   margin-bottom: 32px;
+  width: 100%;
 }
 
 .hero-chips .MuiChip-root {
@@ -368,7 +369,7 @@ h2 {
   font-size: 1rem;
   padding: 12px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  text-align: left;
+  text-align: center;
   transition: color 0.2s ease;
 }
 
@@ -745,7 +746,11 @@ footer p {
 
 @media (max-width: 760px) {
   .navbar {
-    padding: 16px 5%;
+    padding: 14px 5%;
+  }
+
+  .logo-img {
+    height: 52px;
   }
 
   .nav-links,
@@ -759,25 +764,30 @@ footer p {
 
   .mobile-menu {
     display: flex;
+    top: 80px;
+  }
+
+  .hero-chips {
+    row-gap: 8px !important;
   }
 
   .hero {
-    padding: 115px 0 60px;
+    padding: 100px 0 60px;
   }
 
   h1 {
-    font-size: clamp(3.4rem, 17vw, 5.5rem);
+    font-size: clamp(3rem, 14vw, 5rem);
   }
 
   h2 {
-    font-size: clamp(2.3rem, 13vw, 3.8rem);
+    font-size: clamp(2rem, 11vw, 3.2rem);
   }
 
   .press-strip {
     flex-wrap: wrap;
-    gap: 22px;
+    gap: 20px;
     text-align: center;
-    padding: 28px 5%;
+    padding: 24px 5%;
   }
 
   .press-label {
@@ -785,16 +795,16 @@ footer p {
   }
 
   .press-logo {
-    height: 74px;
+    height: 34px;
   }
 
   .visit-indy {
-    height: 42px;
+    height: 44px;
   }
 
   .split-section,
   .section {
-    padding: 60px 0;
+    padding: 52px 0;
   }
 
   .section-header {
@@ -802,13 +812,14 @@ footer p {
   }
 
   .vendor-list {
-    grid-template-columns: 1fr 1fr;
-    gap: 0 30px;
-    margin-bottom: 42px;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 36px;
   }
 
   .vendor-item {
-    font-size: 0.88rem;
+    font-size: 0.95rem;
+    padding: 14px 0;
   }
 
   .beverage-list {
@@ -820,12 +831,13 @@ footer p {
   }
 
   .entertainment-card {
-    height: 260px;
+    height: 240px;
   }
 
   .ticket-mui-card {
     max-width: 100%;
-    min-height: 400px;
+    min-height: 0;
+    height: auto !important;
   }
 
   .ticket-mui-card h4 {
@@ -833,46 +845,52 @@ footer p {
   }
 
   .ticket-mui-card h2 {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
   }
 
   .gallery-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
   }
 
   .gallery-grid img {
-    height: 260px;
+    height: 175px;
   }
 
   .sponsor-logo-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
   }
 
   .sponsor-logo-card {
-    height: 110px;
+    height: 100px;
   }
 
   .sponsor-logo {
-    height: 55px;
+    height: 50px;
   }
 
   .faq-accordion .MuiAccordionSummary-root {
-    min-height: 68px;
-    padding: 0 18px;
+    min-height: 64px;
+    padding: 0 16px;
   }
 
   .faq-accordion .MuiAccordionSummary-content p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .faq-accordion .MuiAccordionDetails-root {
-    padding: 0 18px 22px;
+    padding: 0 16px 20px;
   }
 
   footer {
-    padding: 40px 5%;
+    padding: 36px 5%;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .footer-logo-img {
+    height: 70px;
   }
 }
 
