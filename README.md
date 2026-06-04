@@ -1,16 +1,42 @@
-# React + Vite
+# Chicken & Beer Festival — Indianapolis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official website for the **6th Annual Chicken & Beer Festival**, held **August 1, 2026** at University Park in downtown Indianapolis.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Chicken & Beer Festival is Indianapolis' summer celebration of bold flavor, cold drinks, local restaurants, live music, games, and community energy. General admission is free, with tasting tickets available for the 12 PM–3 PM food and drink experience.
 
-## React Compiler
+- **Date:** August 1, 2026
+- **Location:** University Park, Indianapolis, IN
+- **Hours:** 12 PM – 6 PM (Tasting: 12 PM – 3 PM)
+- **Tickets:** [Eventbrite](https://www.eventbrite.com/e/2026-chicken-beer-festival-indianapolis-tickets-1983978969505)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [MUI (Material UI) v9](https://mui.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start local dev server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint |
+
+## Social
+
+- [Instagram](https://www.instagram.com/chickenandbeerindy/)
+- [TikTok](https://www.tiktok.com/@chickenandbeerfest)
+- [Facebook](https://www.facebook.com/chickenandbeerindy)
